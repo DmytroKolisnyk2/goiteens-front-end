@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   box-sizing: border-box;
   font-size: 0;
@@ -23,10 +23,11 @@ body{
 .list__item {
   display: inline-block;
 }
-.list__link:hover{
-  color:#03a9f4;
+.list__link:hover {
+  color: #03a9f4;
 }
 .list__link {
+  color: #626262;
   font-size: 14px;
   text-decoration: none;
 }
@@ -35,13 +36,13 @@ body{
   width: 420px;
   display: inline-block;
 }
-.right{
+.right {
   margin-left: 60px;
 }
-.second{
+.second {
   margin-top: 130px;
 }
-.third{
+.third {
   margin-top: 140px;
 }
 .section__caption {
@@ -50,7 +51,7 @@ body{
   margin-bottom: 25px;
   color: rgb(180, 173, 158);
   font-size: 14px;
- }
+}
 .section__title {
   margin-top: 0px;
   margin-bottom: 40px;
@@ -73,4 +74,3 @@ body{
   background-color: #fff;
   border: 1px solid #626262;
 }
-
