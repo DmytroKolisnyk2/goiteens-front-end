@@ -33,7 +33,6 @@ body{
   margin-left: 150px;
   width: 420px;
   display: inline-block;
-  width: calc(50%-210px) ;
 }
 .right{
   margin-left: 60px;
