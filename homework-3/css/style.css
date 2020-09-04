@@ -40,7 +40,9 @@ body {
   text-decoration: none;
   font-family: "Playfair Display", serif;
 }
-main {
+main { 
+  margin: auto;
+  width: 900px;
   text-align: center;
 }
 .section {
