@@ -59,6 +59,8 @@ main {
   font-size: 14px;
   text-transform: uppercase;
   color: #333333;
+  font-family: "Montserrat", sans-serif;
+  
 }
 .container__text {
   font-size: 15px;
@@ -90,6 +92,7 @@ font-family: 'Roboto', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
 .wrapper__caption {
+  font-style: italic;
   padding-bottom: 80px;
   font-weight: 300;
   font-size: 15px;
