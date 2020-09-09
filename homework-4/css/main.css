@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/* font-family: 'Kaushan Script', cursive; */
+main {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.section {
+  
+}
+.headline_h2 {
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Kaushan Script", cursive;
+}
+.headline_h3 {
+
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 30px;
+}
+
+.headline_h3::after{
+  content: '';
+  display: block;
+  margin: 40px auto 65px;
+  height: 3px;
+  width: 60px;
+  background-color: #f38181;
+}
+.section__conteiner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  width: 33%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.container__icon {
+}
+.container__content {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  width: 225px;
+  margin-bottom: 100px;
+}
+.container__headline {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.container__text {
+  font-size: 15px;
+  color: #b3b3b3;
+}
+.section__text {
+}
+.section__wrapper {
+}
+.wrapper__image {
+}
+.wrapper__headline {
+}
+.wrapper__caption {
+}
