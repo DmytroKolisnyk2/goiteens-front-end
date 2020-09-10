@@ -99,3 +99,6 @@ font-family: 'Roboto', sans-serif;
   color: #b3b3b3;
   font-family: 'Roboto', sans-serif;
 }
+.wrapper__image{
+  width: 380px;
+}
