@@ -1,10 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+
 .header {
+width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.menu_wrapper {
+  position: fixed;
+ 
+  z-index: 2;
+  background-color: #fff;
   align-items: center;
-  margin: 40px auto 110px;
+  height: 75px;
   display: flex;
   justify-content: space-between;
   width: 1200px;
+ 
 }
 
 .logo__link {
@@ -21,18 +33,52 @@
   justify-content: space-between;
   align-items: center;
 }
+.menu_list__item{
+  position: relative;
+}
 
 .menu_list__link {
+  position: relative;
   cursor: pointer;
+  z-index: 4;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #9ce3d6;
   text-transform: uppercase;
   border-bottom: 3px solid transparent;
-  padding-bottom: 10px;
+  
 }
 .menu_list__link:hover {
   color: #f38181;
   border-bottom: 3px solid #f38181;
+}
+.menu_list__list {
+  display: none;
+  position: absolute;
+height: 80px;
+width: 50px;
+background-color: #fff;
+}
+
+.list_part__item {
+  display: block;
+  margin-top: 7px;
+  background-color: #fff;
+  z-index: 3;
+  font-size: 12px;
+  color: #9ce3d6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+
+}
+
+.menu_list__item:hover > .menu_list__list {
+ display: block; 
+}
+.list_part__item:hover {
+  color: #f38181;
+  border-bottom: 2px solid #f38181;
 }
