@@ -13,7 +13,7 @@
   height: 75px;
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 1220px;
 }
 
 .logo__link {
@@ -46,13 +46,13 @@
   border-bottom: 3px solid transparent;
 }
 .menu_list__link:hover {
+  transition: 400ms linear;
   color: #f38181;
   border-bottom: 3px solid #f38181;
 }
 .menu_list__list {
   display: none;
   background-color: #fff;
-
   position: absolute;
 }
 
@@ -69,9 +69,11 @@
 }
 
 .menu_list__item:hover > .menu_list__list {
+  transition: 200ms linear;
   display: block;
 }
 .list_part__item:hover {
+  transition: 200ms linear;
   color: #f38181;
   border-bottom: 2px solid #f38181;
 }

@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 main {
@@ -104,7 +104,7 @@ main {
   position: absolute;
   top: 4px;
   left: 0;
-  background-image: url(../icons/BOOK_2@1X.png);
+  background-image: url(../icons/HOME@1X.png);
   display: block;
   height: 32px;
   width: 32px;

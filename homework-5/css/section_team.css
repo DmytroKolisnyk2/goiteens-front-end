@@ -1,4 +1,4 @@
-body{
+body {
   padding: 0 15px 0 15px;
 }
 .container__headline {
@@ -28,7 +28,7 @@ body{
   margin-bottom: 15px;
   color: #333333;
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .wrapper__caption {
   font-style: italic;
@@ -36,30 +36,29 @@ body{
   font-weight: 300;
   font-size: 15px;
   color: #b3b3b3;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.section__team{
+.section__team {
   display: flex;
   justify-content: space-between;
   width: 1200px;
 }
-.card__wrapper{
+.card__wrapper {
   width: 380px;
   text-align: center;
 }
 
 .image-icon_wrapper {
-position: relative;
-width: 380px;
+  position: relative;
+  width: 380px;
   height: 470px;
   overflow: hidden;
 }
 
-
 .icons_wrapper {
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   position: absolute;
   width: 230px;
   display: none;
@@ -74,32 +73,35 @@ width: 380px;
   align-items: center;
   margin-right: 1px;
 }
-.icons_link:last-child{
+.icons_link:last-child {
   margin: 0;
 }
 
-.image-icon_wrapper:hover >.icons_wrapper{
+.image-icon_wrapper:hover > .icons_wrapper {
   transition: 400ms linear;
   display: flex;
-
 }
-.icons_link:hover{
+.icons_link:hover {
+  transition: 400ms linear;
   background-color: #95e1d3;
 }
-.image-icon_wrapper:hover::before{
+.image-icon_wrapper:hover::before {
   transition: 400ms linear;
-  content: '';
+  content: "";
   display: block;
   height: 760px;
   width: 940px;
   position: absolute;
- background: linear-gradient(rgba(243, 129, 129,0.9), rgba(252,227,138,0.9)) 
+  background: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9)
+  );
 }
-.image-icon_wrapper:hover{
+.image-icon_wrapper:hover {
   transition: 400ms linear;
-  -webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
--moz-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
-top: -10px;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+  box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+  top: -10px;
   left: -10px;
 }
