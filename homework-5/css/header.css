@@ -55,9 +55,10 @@
   border-bottom: 3px solid #f38181;
 }
 .menu_list__list {
-  display: none;
+  display: block;
   background-color: #fff;
   position: absolute;
+  left: 4000px;
 }
 
 .list_part__item {
@@ -73,10 +74,8 @@
 }
 
 .menu_list__item:hover > .menu_list__list {
-  transition: 200ms linear;
-   /* -webkit-transition: 400ms linear; */
-  /* -moz-transition: 400ms linear; */
-  display: block;
+  transition: 200ms ease-in;
+  left: 0;
 }
 .list_part__item:hover {
   transition: 200ms linear;
