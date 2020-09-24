@@ -3,19 +3,21 @@
 .header {
   display: flex;
   justify-content: center;
-  color: #fff;
+  background-color: #fff;
   height: 75px;
-  position: relative
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 .menu_wrapper {
-  position: fixed;
   background-color: #fff;
-  z-index: 2;
-  align-items: center;
+  z-index: 6;
+  margin: auto;
   height: 75px;
   display: flex;
   justify-content: space-between;
-  width: 1222px;
+  align-items: center;
+  width: 1200px;
 }
 
 .logo__link {

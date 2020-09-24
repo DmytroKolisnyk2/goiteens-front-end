@@ -1,7 +1,4 @@
-body {
-  padding: 0 15px 0 15px;
-  height: 9000px;
-}
+
 .container__headline {
   margin-bottom: 20px;
   font-size: 14px;
@@ -75,7 +72,7 @@ body {
   margin-right: 1px;
 }
 .icons_link:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 
 .image-icon_wrapper:hover > .icons_wrapper {
