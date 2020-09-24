@@ -52,7 +52,7 @@ main {
   margin-right: 60px;
 }
 .section:nth-child(2n + 2) {
-  margin: 0;
+  margin-right: 0;
 }
 
 .second {
