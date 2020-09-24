@@ -54,12 +54,12 @@
 }
 
 .icons_wrapper {
-  top: 50%;
-  left: 50%;
+  top: 250%;
+  left: 250%;
   transform: translate(-50%, -50%);
   position: absolute;
-  width: 230px;
-  display: none;
+  width: 227px;
+display: flex;
   flex-wrap: nowrap;
 }
 .icons_link {
@@ -76,22 +76,17 @@
 }
 
 .image-icon_wrapper:hover > .icons_wrapper {
-  transition: 400ms linear;
-  display: flex;
-  /* -webkit-transition: 400ms linear; */
-  /* -moz-transition: 400ms linear; */
-
-
+  transition: 300ms linear;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .icons_link:hover {
   transition: 400ms linear;
   background-color: #95e1d3;
 }
-.image-icon_wrapper:hover::before {
-  transition: 400ms linear;
-  /* -moz-transition: 400ms linear; */
-  /* -webkit-transition: 400ms linear; */
-  content: "";
+.image-icon_wrapper::before{
+   content: "";
   display: block;
   height: 760px;
   width: 940px;
@@ -100,11 +95,25 @@
     rgba(243, 129, 129,0.9),
     rgba(255, 219, 89, 0.8)
   );
+  top: 250%;
+  left: 250%;
+}
+.image-icon_wrapper:hover::before {
+  transition: 300ms linear;
+  content: "";
+   display: block;
+  height: 760px;
+  width: 940px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    rgba(243, 129, 129,0.9),
+    rgba(255, 219, 89, 0.8)
+  );
 }
 .image-icon_wrapper:hover {
    transition: 400ms linear;
-  /* -webkit-transition: 400ms linear; */
-  /* -moz-transition: 400ms linear;          */
   -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
   -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
   box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
