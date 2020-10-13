@@ -86,6 +86,12 @@
   padding: 25px 47px;
   margin: 30px auto 115px;
 }
-/* .form__text_wrapper{
-  margin-bottom: 30px;
-} */
+@media (max-width: 950px) {
+  .textarea {
+    display: block;
+    margin: 30px auto;
+  }
+  .form {
+    display: block;
+  }
+}
