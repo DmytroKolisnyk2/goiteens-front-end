@@ -8,3 +8,6 @@
     font-size: 0;
     list-style: none;
 }
+.textarea::-webkit-resizer {
+  display: none;
+}
