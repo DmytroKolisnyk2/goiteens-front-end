@@ -1,0 +1,124 @@
+.section_partners {
+  background-color: #fff;
+  text-align: center;
+  padding: 68px 16px 55px 16px;
+}
+.section_partners__headline {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  margin-bottom: 14px;
+}
+.card_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 215px;
+  margin: 0 auto;
+}
+.section_partners__card {
+  width: 215px;
+  margin-bottom: 28px;
+}
+.img-icon_wrapper {
+  width: 123px;
+  height: 123px;
+  position: relative;
+  margin: 0 auto 20px;
+}
+.img-icon_wrapper > img {
+  border-radius: 50%;
+}
+.icon_wrapper {
+  width: 33px;
+  height: 33px;
+  background-color: #ff4e50;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_wrapper:nth-child(2) {
+  background-color: #ffa507;
+}
+.icon_wrapper:nth-child(3) {
+  background-color: #1cd7ad;
+}
+.icon_wrapper:nth-child(4) {
+  background-color: #4e73db;
+}
+
+.card__headline {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  margin-bottom: 16px;
+}
+.card__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(102, 102, 102, 255);
+}
+.section_partners__btn {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #ff4e50;
+  background-color: transparent;
+  border-radius: 40px;
+  width: 280px;
+  height: 40px;
+  border: 2px solid #ff4e50;
+}
+
+@media (min-width: 768px) {
+  .section_partners {
+    padding: 72px 32px 40px 32px;
+  }
+  .section_partners__headline {
+    margin-bottom: 30px;
+  }
+  .card_wrapper {
+    width: 590px;
+  }
+  .section_partners__card {
+    margin-bottom: 56px;
+  }
+
+  .card__headline {
+    margin-bottom: 20px;
+  }
+  .section_partners__btn {
+    width: 195px;
+  }
+  .section_partners__card:nth-child(1) {
+    order: 1;
+  }
+  .section_partners__card:nth-child(2) {
+    order: 3;
+  }
+  .section_partners__card:nth-child(3) {
+    order: 2;
+  }
+  .section_partners__card:nth-child(4) {
+    order: 4;
+  }
+}
+@media (min-width: 1440px) {
+  .card_wrapper {
+    width: 920px;
+  }
+  .section_partners {
+    padding: 70px 48px 60px 48px;
+  }
+  .section_partners__card {
+    margin-bottom: 40px;
+  }
+}

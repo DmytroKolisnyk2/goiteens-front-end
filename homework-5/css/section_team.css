@@ -97,7 +97,7 @@
   left: 250%;
 }
 .image-icon_wrapper:hover::before {
-  transition: 300ms linear;
+  transition: 400ms linear;
   content: "";
   display: block;
   height: 760px;
