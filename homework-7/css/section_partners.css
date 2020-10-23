@@ -78,7 +78,7 @@
   border: 2px solid #ff4e50;
 }
 
-@media screen  and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .section_partners {
     padding: 72px 32px 40px 32px;
   }
@@ -86,7 +86,9 @@
     margin-bottom: 30px;
   }
   .card_wrapper {
-    width: 590px;
+    width: 60vw;
+    max-width: 640px;
+    justify-content: space-between;
   }
   .section_partners__card {
     margin-bottom: 56px;
@@ -113,7 +115,8 @@
 }
 @media screen and (min-width: 1440px) {
   .card_wrapper {
-    width: 920px;
+    width: 65vw;
+    max-width: 1200px;
   }
   .section_partners {
     padding: 70px 48px 60px 48px;
